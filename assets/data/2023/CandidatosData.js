@@ -30,7 +30,7 @@ export const dessertsData = [
     p1: "#a4e0ee",
     p2: "#D8B4FE",
     p3: "#cbaada",
-    p4: "#fcdabc",
+    p4: "#FFF0E6",
     p5: "#B1E1E7",
     p6: "#F4C2D7", // Tono pastel RETO
     p7: "#B0C4DE"
@@ -40,7 +40,7 @@ export const dessertsData = [
     p1: "#45b5ce",
     p2: "#A855F7",
     p3: "#A569BD",
-    p4: "#f8c89c",
+    p4: "#FF9457",
     p5: "#64C3CE",
     p6: "#D81B60", // Tono medio RETO
     p7: "#4682B4"
@@ -51,7 +51,7 @@ export const dessertsData = [
     p1: "#12a2c2",
     p2: "#8A2BE2",
     p3: "#7D3C98",
-    p4: "#e69237",
+    p4: "#FF5500",
     p5: "#35A0AC",
     p6: "#E0008A", // Tono oscuro/exacto RETO
     p7: "#00008B"
@@ -94,9 +94,9 @@ export const candidatoData = [
   {
     partido: 4,
     nombre: "OTTO SONNENHOLZNER",
-    url: img("imagenes_presidentes/candidato_004.png"),
-    logo: img("logos_partidos_politicos/AVANZA.png"),
-    color: "#FFA500", // Naranja
+    url: img("imagenes_presidentes/2023/OTTOSONNENHOLZNER_2023.png"),
+    logo: img("logos_partidos_politicos/2023/ACTUEMOS_2023.png"),
+    color: "#FF5500", // NaranjaPartidoPolitico
     nombrePartido: "AVANZA/SUMA",
     json: "AVANZA/SUMA",
   },
