@@ -30,20 +30,21 @@ export const dessertsData = [
     p1: "#a4e0ee",
     p2: "#D8B4FE",
     p3: "#FDFD96",
-    p4: "#fcdabc",
+    p4: "#FFF0E6",
     p5: "#B1E1E7",
-    p6: "#f8bbd0",
+    p6: "#F4C2D7", // Tono pastel RETO
     p7: "#B0C4DE",
+    p8: "#ccffeb",
   },
   {
     porcentaje: "Nivel Medio",
     p1: "#45b5ce",
     p2: "#A855F7",
     p3: "#CCCC00",
-    p4: "#f8c89c",
+    p4: "#FF9457",
     p5: "#64C3CE",
-    p6: "#f48fb1",
-    p7: "#4682B4",
+    p6: "#D81B60", // Tono medio RETO
+    p7: "#4682B4"
     p8: "#80fcc6",
   },
   {
@@ -51,10 +52,10 @@ export const dessertsData = [
     p1: "#12a2c2",
     p2: "#8A2BE2",
     p3: "#FFFF00",
-    p4: "#e69237",
+    p4: "#FF5500",
     p5: "#35A0AC",
-    p6: "#e91e63",
-    p7: "#00008B",
+    p6: "#E0008A", // Tono oscuro/exacto RETO
+    p7: "#00008B"
     p8: "#00FA9A",
   },
 ];
@@ -94,9 +95,9 @@ export const candidatoData = [
   {
     partido: 4,
     nombre: "OTTO SONNENHOLZNER",
-    url: img("imagenes_presidentes/candidato_004.png"),
-    logo: img("logos_partidos_politicos/AVANZA.png"),
-    color: "#FFA500", // Naranja
+    url: img("imagenes_presidentes/2023/OTTOSONNENHOLZNER_2023.png"),
+    logo: img("logos_partidos_politicos/2023/ACTUEMOS_2023.png"),
+    color: "#FF5500", // NaranjaPartidoPolitico
     nombrePartido: "AVANZA/SUMA",
     json: "AVANZA/SUMA",
   },
@@ -110,12 +111,12 @@ export const candidatoData = [
     json: "UP/PSE/DSI",
   },
   {
-    partido: 6,
+    partido: 6, // Lista de Xavier Hervas (Movimiento RETO)
     nombre: "XAVIER HERVAS",
-    url: img("imagenes_presidentes/candidato_006.png"),
-    logo: img("logos_partidos_politicos/RETO.png"),
-    color: "#FFD700", // Dorado
-    nombrePartido: "RETO",
+    url: img("imagenes_presidentes/2023/XAVIER HERVAS_2023.png"),
+    logo: img("logos_partidos_politicos/2023/MOVIMIENTO DEMOCRACIA_2023.png"),
+    color: "#E0008A", // Color principal oficial del Movimiento RETO
+    nombrePartido: "RETO", // este candidato pertenece al Movimiento RETO
     json: "RETO",
   },
   {
