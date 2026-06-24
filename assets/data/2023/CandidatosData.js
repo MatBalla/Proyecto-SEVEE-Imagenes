@@ -27,30 +27,35 @@ const img = (path) => {
 export const dessertsData = [
   {
     porcentaje: "Nivel Bajo",
-    p1: "#bdd7e7",
-    p2: "#fdbe85",
+    p1: "#a4e0ee",
+    p2: "#D8B4FE",
     p3: "#cbaada",
     p4: "#fcdabc",
     p5: "#B1E1E7",
     p6: "#f8bbd0",
+    p7: "#B0C4DE"
   },
   {
     porcentaje: "Nivel Medio",
-    p1: "#6baed6",
-    p2: "#fd8d3c",
+    p1: "#45b5ce",
+    p2: "#A855F7",
     p3: "#A569BD",
     p4: "#f8c89c",
     p5: "#64C3CE",
     p6: "#f48fb1",
+    p7: "#4682B4"
+    p8: "#80fcc6",
   },
   {
     porcentaje: "Nivel Alto",
-    p1: "#08519c",
-    p2: "#a63603",
+    p1: "#12a2c2",
+    p2: "#8A2BE2",
     p3: "#7D3C98",
     p4: "#e69237",
     p5: "#35A0AC",
     p6: "#e91e63",
+    p7: "#00008B"
+    p8: "#00FA9A",
   },
 ];
 
@@ -62,8 +67,8 @@ export const candidatoData = [
   {
     partido: 1,
     nombre: "LUISA GONZALEZ",
-    url: img("imagenes_presidentes/candidato_001.png"), // Placeholder
-    logo: img("logos_partidos_politicos/ALIANZA PAIS.png"), // O Revolución Ciudadana
+    url: img("imagenes_presidentes/2023/LUISA_GONZALEZ_2023.png"), // Placeholder
+    logo: img("logos_partidos_politicos/2023/RC_2023.png"), // O Revolución Ciudadana
     color: "#12a2c2", // Celeste RC
     nombrePartido: "RC",
     json: "RC",
@@ -71,8 +76,8 @@ export const candidatoData = [
   {
     partido: 2,
     nombre: "DANIEL NOBOA AZIN",
-    url: img("imagenes_presidentes/candidato_002.png"),
-    logo: img("logos_partidos_politicos/ADN.png"), // Asumiendo que existe o se usará placeholder
+    url: img("imagenes_presidentes/2023/DANIELNOBOA_2023.png"),
+    logo: img("logos_partidos_politicos/2023/ADN_2023.png"), // Asumiendo que existe o se usará placeholder
     color: "#8A2BE2", // Violeta/Morado ADN
     nombrePartido: "ADN",
     json: "ADN",
@@ -116,8 +121,8 @@ export const candidatoData = [
   {
     partido: 7,
     nombre: "FERNANDO VILLAVICENCIO",
-    url: img("imagenes_presidentes/candidato_007.png"),
-    logo: img("logos_partidos_politicos/CONSTRUYE.png"),
+    url: img("imagenes_presidentes/2023/FERNANDO_VILLAVICENCIO_2023.png"),
+    logo: img("logos_partidos_politicos/2023/CONSTRUYE_2023.png"),
     color: "#00008B", // Azul oscuro
     nombrePartido: "CONSTRUYE",
     json: "CONSTRUYE",
@@ -125,8 +130,8 @@ export const candidatoData = [
   {
     partido: 8,
     nombre: "BOLIVAR ARMIJOS",
-    url: img("imagenes_presidentes/candidato_008.png"),
-    logo: img("logos_partidos_politicos/AMIGO.png"),
+    url: img("imagenes_presidentes/2023/BOLIVARARMIJOS_2023.png"),
+    logo: img("logos_partidos_politicos/2023/AMIGO_2023.png"),
     color: "#00FA9A", // Verde claro
     nombrePartido: "AMIGO",
     json: "AMIGO",
