@@ -32,8 +32,8 @@ export const dessertsData = [
     p3: "#cbaada",
     p4: "#fcdabc",
     p5: "#B1E1E7",
-    p6: "#f8bbd0",
-    p8: "#ccffeb",
+    p6: "#F4C2D7", // Tono pastel RETO
+    p7: "#B0C4DE"
   },
   {
     porcentaje: "Nivel Medio",
@@ -42,7 +42,8 @@ export const dessertsData = [
     p3: "#A569BD",
     p4: "#f8c89c",
     p5: "#64C3CE",
-    p6: "#f48fb1",
+    p6: "#D81B60", // Tono medio RETO
+    p7: "#4682B4"
     p8: "#80fcc6",
   },
   {
@@ -52,7 +53,8 @@ export const dessertsData = [
     p3: "#7D3C98",
     p4: "#e69237",
     p5: "#35A0AC",
-    p6: "#e91e63",
+    p6: "#E0008A", // Tono oscuro/exacto RETO
+    p7: "#00008B"
     p8: "#00FA9A",
   },
 ];
@@ -101,26 +103,26 @@ export const candidatoData = [
   {
     partido: 5,
     nombre: "YAKU PEREZ",
-    url: img("imagenes_presidentes/candidato_005.png"),
-    logo: img("logos_partidos_politicos/CLARO QUE SE PUEDE.png"), // Ajustar nombre si no existe
-    color: "#008000", // Verde
+    url: img("imagenes_presidentes/2023/YAKUPEREZ_2023.png"),
+    logo: img("logos_partidos_politicos/2023/CLARO_QUE_SE_PUEDE_2023.png"),
+    color: "#35A0AC",
     nombrePartido: "UP/PSE/DSI",
     json: "UP/PSE/DSI",
   },
   {
-    partido: 6,
+    partido: 6, // Lista de Xavier Hervas (Movimiento RETO)
     nombre: "XAVIER HERVAS",
-    url: img("imagenes_presidentes/candidato_006.png"),
-    logo: img("logos_partidos_politicos/RETO.png"),
-    color: "#FFD700", // Dorado
-    nombrePartido: "RETO",
+    url: img("imagenes_presidentes/2023/XAVIER HERVAS_2023.png"),
+    logo: img("logos_partidos_politicos/2023/MOVIMIENTO DEMOCRACIA_2023.png"),
+    color: "#E0008A", // Color principal oficial del Movimiento RETO
+    nombrePartido: "RETO", // este candidato pertenece al Movimiento RETO
     json: "RETO",
   },
   {
     partido: 7,
     nombre: "FERNANDO VILLAVICENCIO",
-    url: img("imagenes_presidentes/candidato_007.png"),
-    logo: img("logos_partidos_politicos/CONSTRUYE.png"),
+    url: img("imagenes_presidentes/2023/FERNANDO_VILLAVICENCIO_2023.png"),
+    logo: img("logos_partidos_politicos/2023/CONSTRUYE_2023.png"),
     color: "#00008B", // Azul oscuro
     nombrePartido: "CONSTRUYE",
     json: "CONSTRUYE",
