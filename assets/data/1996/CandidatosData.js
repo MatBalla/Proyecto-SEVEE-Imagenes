@@ -62,9 +62,9 @@ export const candidatoData = [
   {
     partido: 2,
     nombre: 'NEBOT JAIME',
-    url: img('candidatos/2.png'),
-    logo: img('partidos/ADN.png'),
-    color: '#a63603',
+    url: img('imagenes_presidentes/1996/JAIME_NEBOT_PSC_1996.png'),
+    logo: img('logos_partidos_politicos/1996/PSC_1996.png'),
+    color: '#FFD700',
     nombrePartido: 'PSC-6',
     json: '2'
   },
