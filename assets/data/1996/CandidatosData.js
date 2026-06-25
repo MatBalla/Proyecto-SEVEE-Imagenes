@@ -46,7 +46,7 @@ export const dessertsData = [
    p4: '#f8c89c',
    p5: '#64C3CE',
    p6: '#f48fb1',
-   p7: '#F1948A', 
+   p7: '#D4E157',
    p8: '#8c8c8c', 
    p9: '#7DCEA0', 
    p10: '#907761',
@@ -63,7 +63,7 @@ export const dessertsData = [
    p4: '#f2b77c', 
    p5: '#40b6c4',
    p6: '#f06292', 
-   p7: '#EC7063',
+   p7: '#9CCC65',
    p8: '#5f5f5f',
    p9: '#52BE80',
    p10: '#7e634e',
@@ -80,7 +80,7 @@ export const dessertsData = [
    p4: '#e69237', 
    p5: '#35A0AC',
    p6: '#e91e63',
-   p7: '#E74C3C', 
+   p7: '#556B2F',
    p8: '#4a4a4a',
    p9: '#229954',
    p10: '#553d2a',
@@ -152,14 +152,14 @@ export const candidatoData = [
     nombrePartido: 'MUPP-NP-18',
     json: '6'
   },
-  {
+{
     partido: 7,
     nombre: 'GALLARDO JOSE',
-    url: img('candidatos/7.png'),
-    logo: img('partidos/PSC.png'),
+    url: img("imagenes_presidentes/1996/gallardo_1996.png"), 
+    logo: img("logos_partidos_politicos/1996/uci_1996.png"), 
     color: '#E74C3C',
-    nombrePartido: 'UCI-19',
-    json: '7'
+    nombrePartido: "COMPLETAR", 
+    json: "COMPLETAR" 
   },
   {
     partido: 8,
